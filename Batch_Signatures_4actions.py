@@ -6,7 +6,7 @@
 @Date: 2023-11-27 11:59
 @LastEditor: JK211
 LastEditTime: 2024-1-20
-@Discription:  我们基于GYMe model batch requests using a sequ编写了批量识别的环境，其中动作包括II,BSI,MRI,2-CFF(25,125)
+@Discription:  我们基于GYM编写了批量识别的环境，其中动作包括II,BSI,MRI,2-CFF(25,125)
               We wrote the environment for batch identification based on GYM, where the actions include II,BSI,MRI,2-CFF(25,125)
 @Environment: python 3.7
 '''
