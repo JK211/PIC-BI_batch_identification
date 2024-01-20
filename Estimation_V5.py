@@ -6,8 +6,9 @@
 @Date: 2023-11-12 16:44
 @LastEditor: JK211
 LastEditTime: 2023-11-12 16:44
-@Discription:  初步实现了估计算法的功能，但目前的问题是预测准确时，预测值的权重没有马上赋予比较大的值
-               幸运的是，当攻击者行为变化时（即非法前面占比变化剧烈时）会触发重采样，采样值权重会逼近1，符合预期
+@Discription:  该算法实现了对未知非法请求占比r%的估计，利用预测算法和采样实现了加权调和，对应贡献点1
+               The algorithm achieves an estimation of the r% share of unknown illegal requests,
+               and a weighted summation using a prediction algorithm and a sampling method, corresponding to the contribution point 1
 @Environment: python 3.8
 '''
 import numpy as np
