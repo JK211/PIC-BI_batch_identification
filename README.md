@@ -1,4 +1,7 @@
-# PIC-BI_batch_identification
+# PIC-BI: Practical and Intelligent Combinatorial Batch Identification for UAV assisted IoT Networks
+***Authors**: [Zhe Ren](https://github.com/JK211), Xinghua Li, Yinbin Miao, [Zhuowen Li](https://github.com/lzwgiter), [Zihao Wang](https://github.com/wangzihao318), Ximeng Liu, Robert H. Deng* 
+***Keywords**: UAV-aided IoT Networks, Combinatorial Framework, Batch Identification, Kalman Filter, Reinforcement Learning* 
+
 Here's the code implementation of PIC-BI: Practical and Intelligent Combinatorial Batch Identification for UAV assisted IoT Networks
 
 # Foobar
