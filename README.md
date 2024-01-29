@@ -12,10 +12,10 @@
 The code in the repository implements the combinatorial batch identification framework mentioned in the paper, which specifically contains two algorithms, adaptive estimation algorithm for batch illegal ratio (AEABIR) and combinatorial strategy learning algorithm (CSLA), respectively.
 
 - Estimation_V5.py: The code corresponds to adaptive estimation algorithm for batch illegal ratio (AEABIR), which can be run alone to realize all the functions of the algorithm, and is carried out to give experimental plots.
-- Main.py: This code, together with Batch_Signatures_*actions.py and DQN.py, implements combinatorial strategy learning algorithm (CSLA), which can be used to learn combinatorial algorithmic recognition of batch requests based on this code.
+- Main.py: This code, together with Batch_Signatures_*actions.py and DQN.py, implements combinatorial strategy learning algorithm (CSLA), which can be used to learn combinatorial algorithmic identification of batch requests based on this code.
 - batch_requests_generator.py: This code is noted for generating batch requests containing illegal requests.
 
-The above 3 codes form the main body of our experiments, and the rest of the codes contain comparison schemes, dependencies, cryptographic schemes, and cover free family compositions.
+The above 3 codes form the main body of our experiments, and the rest of the codes contain comparison schemes, dependencies, cryptographic schemes and cover free family compositions.
 
 ## Installation
 
@@ -26,7 +26,7 @@ The above 3 codes form the main body of our experiments, and the rest of the cod
 - tate_bilinear_pairing 0.6
 - statsmodels 0.14.1
 
-We recommend installing strictly the above version and utilizing conda and pip for unified management.
+We recommend installing the above version, and utilizing conda/pip for unified management.
 
 ## Usage
 
@@ -36,7 +36,7 @@ We recommend installing strictly the above version and utilizing conda and pip f
 $ python Estimation_V5.py
 ```
 
-- Train a model
+- Train and test a model.
 
 ```shell
 $ python Main.py
